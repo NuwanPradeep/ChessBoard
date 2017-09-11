@@ -1,0 +1,68 @@
+ #main{
+    height: 520px;
+    width: 520px;
+    top: 8%;
+    left: 30%;
+    position: absolute;
+    transform: rotateX(10deg);
+    perspective: 1250px;
+    perspective-origin: 44% 50%;
+    transform: rotateX(10deg);
+    box-shadow: 10px 10px 5px 0px gray;
+}
+
+.black-space{
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: dimgray;
+}
+
+.white-space{
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: lightgrey;
+}
+
+#image{
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+.bs{
+    height: 60px;
+    width: 60px;
+    margin: 0px 0px;
+}
+
+.ws{
+    height: 60px;
+    width: 60px;
+    margin: 0px 0px;
+}
+
+.space{
+    color: lemonchiffon;
+    float: left;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+}
+.space2{
+    color: lemonchiffon;
+    float: left;
+    height: 60px;
+    width: 20px;
+    text-align: center;
+}
+
+.square-space{
+    color: lemonchiffon;
+    float: left;
+    height: 20px;
+    width: 20px;
+}
