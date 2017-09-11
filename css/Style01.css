@@ -1,0 +1,52 @@
+/*#image{*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*top: 0%;*/
+    /*left: 0%;*/
+    /*position: absolute;*/
+/*}*/
+
+.btn {
+    display: inline-block;
+    height: 2em;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    line-height: 1.75em;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #303030;
+    transform: translateZ(1em);
+    -webkit-transition: width 0s, height 1s;
+    -moz-transition: width 0s, height 1s;
+}
+
+.btn.white {
+    color: black;
+    background-color: white;
+}
+
+.btn:hover,
+.btn:active {
+    width: 100px;
+    height: 100px;
+}
+
+.btn.white:hover,
+.btn.white:active {
+    background-color: #CACACA;
+}
+#btn-main{
+    position: absolute;
+    top: 57%;
+    left: 38%;
+}
+#main-img{
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+
+
